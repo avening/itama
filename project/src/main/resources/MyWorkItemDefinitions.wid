@@ -1,0 +1,14 @@
+[
+  [
+    "name" : "MyWorkItemDefinitions", 
+    "parameters" : [ 
+        "SampleParam" : new StringDataType(), 
+        "SampleParamTwo" : new StringDataType(), 
+    ], 
+    "results" : [ 
+        "SampleResult" : new ObjectDataType("java.util.Map") 
+    ], 
+    "displayName" : "MyWorkItemDefinitions", 
+    "icon" : "" 
+  ]
+]
